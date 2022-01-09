@@ -19,4 +19,5 @@ do
 		exit 0	# found it
 	fi
 done
+echo "File $1 is not found in PATH"
 exit 1	 # not found
