@@ -11,6 +11,7 @@ do
     who > $new
     diff $old $new
     mv   $new $old
-    sleep 10
-done | awk '/>/ { $1 = "in:  ";print}
-            />/ { $1 = "out:  ";print}'
+    sleep 5
+done
+# done | awk '/>/ {$1="in:  ";print}
+#             /</ {$1="out:  ";print}'

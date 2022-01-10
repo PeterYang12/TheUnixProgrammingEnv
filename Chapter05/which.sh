@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# which cmd: which cmd in PATH is executed
+# which.sh cmd: which cmd in PATH is executed
 
 opath=$PATH
 PATH=/bin:usr/bin

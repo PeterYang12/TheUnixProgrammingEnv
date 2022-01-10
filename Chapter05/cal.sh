@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-#cal: nicer interface to /usr/bin/cal
+#cal.sh: nicer interface to /usr/bin/cal
+
 set -e
 
 case $# in
@@ -25,8 +26,6 @@ case $m in
 	*)	y=$m; m="";;
 esac
 
-#echo month $m
-#echo year $y
 
 /usr/bin/cal $m $y
 
